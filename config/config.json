@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "Dbskly@328",
+    "username": "myuser",
+    "password": "mypassword",
     "database": "diary_mainapp",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "Dbskly@328",
+    "username": "myuser",
+    "password": "mypassword",
     "database": "diary_mainapp",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "Dbskly@328",
+    "username": "myuser",
+    "password": "mypassword",
     "database": "diary_mainapp",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   }
 }
