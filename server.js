@@ -3,11 +3,13 @@ const bodyParser = require("body-parser")
 const app = express()
 const path=require('path');
 const cors=require('cors');
+const dotenv = require('dotenv');
+dotenv.config();
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors());
-const PORT = 3005
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
     console.log(`Server is listening to port ${PORT},Database is up now`);
