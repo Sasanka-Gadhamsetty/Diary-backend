@@ -1,10 +1,9 @@
+require('dotenv').dotenv.config();
 const express = require("express")
 const bodyParser = require("body-parser")
 const app = express()
 const path=require('path');
 const cors=require('cors');
-const dotenv = require('dotenv');
-dotenv.config();
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
