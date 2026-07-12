@@ -9,7 +9,7 @@ dotenv.config();
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors());
-const PORT = process.env.PORT;
+const PORT = process.env.PORT
 
 app.listen(PORT, () => {
     console.log(`Server is listening to port ${PORT},Database is up now`);
